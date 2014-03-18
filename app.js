@@ -12,9 +12,9 @@ prompt.get(['search'], function (err, result){
     }
 
     prompt.get(['number'], function(err, results){
-
       var cmd = 'open ' + anchors[results.number].url;
       cp.exec(cmd);
     });
   });
 });
+
