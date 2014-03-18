@@ -1,0 +1,20 @@
+{
+  "name": "google-cli",
+  "repository" : {
+    "type" : "git",
+    "url"  : "http://github.com/chyld/google-cli.git"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start"     : "node app.js",
+  },
+  "dependencies": {
+    "child_process" : "*",
+    "prompt"        : "*",
+    "colors"        : "*",
+    "request"       : "*",
+    "cheerio"       : "*",
+    "lodash"        : "*"
+  }
+}
