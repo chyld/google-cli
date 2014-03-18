@@ -7,10 +7,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start"     : "node app.js",
+    "start"     : "node app.js"
   },
   "dependencies": {
-    "child_process" : "*",
     "prompt"        : "*",
     "colors"        : "*",
     "request"       : "*",
@@ -18,3 +17,4 @@
     "lodash"        : "*"
   }
 }
+
